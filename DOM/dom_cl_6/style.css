@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.782);
+}
+
+#card{
+    height: 70%;
+    width: 20%;
+    border-radius: 10px;
+    background-color: #dadada;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 2vw;
+    text-align: center;
+    margin-left: 2vmax;
+}
+
+img{
+    height: 10vmax;
+    width: 10vmax;
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: inherit;
+}
+
+#profile_img img{
+    width: 137px;
+}
+
+h1{
+    font: 600 1.9vmax "gilroy";
+    color: rgba(0, 0, 0, 0.77);
+}
+
+p{
+    width: 80%;
+    font: 300 1vmax "gilroy";
+    color: rgba(0, 0, 0, 0.77);
+}
+
+h3{
+    font: 600 1.9vmax "gilroy";
+    color: rgba(104, 18, 18, 0.77);
+}
+
+button{
+    padding: 1vmax 2vmax;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    background-color: royalblue;
+}
+
+button:active{
+    transform:  scale(0.9);
+}
+
+.friends{
+    /* background-color: firebrick; */
+    color: green;
+}
+
+.unfriend{
+    background-color: firebrick;
+    color: white;
+}

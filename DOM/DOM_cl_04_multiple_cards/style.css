@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    min-height: 100vh;
+    width: 100%;
+    background-color: firebrick;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#card{
+    width: 20%;
+    min-height: 60vh;
+    margin-left: 1vmax;
+    margin-top: 1vmax;
+    border-radius: 15px;
+    background-color: #dadada;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 300;
+    font-size: 2vmax;
+    color: black;
+    letter-spacing: 1px;
+}
+
+p{
+    width: 80%;
+    text-align: center;
+    font-size: 1vmax;
+    line-height: 140%;
+    color: rgb(56, 133, 233);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.9vmax;
+    font-weight: 400;
+    color: rgba(255, 30, 0, 0.706);
+}
+
+button{
+    padding: 1vmax 2.5vmax;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 1.5vmax;
+    font-family: gilroy;
+    background-color: rgb(107, 241, 107);
+}
+
+
+
+
+

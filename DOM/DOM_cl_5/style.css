@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(120, 120, 234);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card{
+    height: 60%;
+    width: 20%;
+    background-color: rgba(0, 0, 0, 0.453);
+    margin-left: 2vmax;
+    border-radius: 15px;
+    display: flex;
+    padding: 0 1vmax;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1{
+    font: 400 2vmax "oswald";
+    letter-spacing: 1px;
+    color: rgb(255, 194, 11);
+}
+
+p{
+    text-align: center;
+    font: 200 1vmax "gilroy";
+    color: rgb(252, 145, 145);
+}
+
+h3{
+    font: 400 2vmax "gilroy";
+    color: greenyellow;
+}
+
+button{
+    padding: 1vmax 2.5vmax;
+    color: rgb(12, 12, 12);
+    border: none;
+    border-radius: 20px;
+    background-color: silver;
+}

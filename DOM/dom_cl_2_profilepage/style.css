@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.701);
+}
+
+#profile_wrapper{
+    height: 70%;
+    width: 20%;
+    background-color: rgba(255, 255, 255, 0.181);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 1.5vmax 2vmax;
+    box-shadow: 0 0 22px rgba(100, 99, 99, 0.558);
+    margin-top: 4vmax;
+
+}
+
+#profile_photo{
+    width: 10vmax;
+    height: 10vmax;
+    border-radius: 50%;
+    background-color: firebrick;
+    background-image: url(photo-1494790108377-be9c29b29330.avif);
+    background-position: center;
+    background-position-y: 10%;
+    background-size: cover;   
+    margin-top: 1.5vmax;
+}
+
+#name{
+    margin-top: 0.8vmax;
+    color:white;
+    font: 600 2vmax "montserrat" ;
+}
+
+
+#info{
+    margin-top: 1.5vmax;
+    font: 400 1vmax "montserrat" ;
+    text-align: center;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.589);
+    
+}
+
+#status{
+    margin-top: 2.5vmax;
+    letter-spacing: 2px;
+    font: 700 1.5vmax "montserrat";
+    color: red;
+    text-transform: uppercase;
+}
+
+button{
+    margin-top: 2.3vmax;
+    padding: 0.9vmax 3.5vmax;
+    background-color: rgb(61, 255, 61);
+    color: white;
+    border: none;
+    border-radius: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3vmax;
+    font-weight: 400;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.523);
+}
+
+button:active{
+    transform: scale(0.9);
+}
+
+#loader{
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.523);
+    margin-top: 2vmax;
+    height: 0.7vmax;
+    width: 30%;
+    background-color: #dadada;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+#grow{
+    height: 100%;
+    width: 0%;
+    background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+    transition: 2s linear all;
+}

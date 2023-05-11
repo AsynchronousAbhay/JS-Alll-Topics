@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#card{
+    height: 70%;
+    width: 20%;
+    background-color: white;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.799);
+}
+
+#stories{
+    height: 15%;
+    width: 100%;
+    border-bottom: 1px solid black;
+    /* display: inline-block; */
+    white-space: nowrap;
+    overflow-x:auto;
+    overflow-y: hidden;
+    padding: 0.5vh 1vw;
+}
+
+#stories::-webkit-scrollbar{
+    display: none;
+}
+
+.story{
+    height: 4vmax;
+    width: 4vmax;
+    border-radius: 50%;
+    display: inline-block;
+    border:2px solid red;
+    margin: 0 0.3vmax;
+    overflow: hidden;
+    object-fit: cover;
+
+}
+
+.story img{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+
+#full-scr{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    position: absolute;
+    z-index: 999;
+    border-radius: 5px;
+    display: none;
+    background-size: cover;
+    background-position: center;
+}
+
+
+#progress{
+    height: 1%;
+    width: 100%;
+    background-color: #dadadd;
+    border-radius: 5px;
+    position: relative;
+}
+
+#growth{
+    height: 100%;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.647);
+    border-radius: 5px;
+}
+
+

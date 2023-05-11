@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+
+#bulb{
+    margin: 2vmax;
+    height: 20vmax;
+    width: 20vmax;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+button{
+    padding: 1vmax 2vmax;
+    font-size: 1.5vmax;
+    font-family: gilroy;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: firebrick;
+    color: white;
+    transform: translate(-50%,70%);
+}
